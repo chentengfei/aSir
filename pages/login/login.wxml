@@ -1,0 +1,18 @@
+<view class='container'>
+  <view class='header'>
+    <text>智能小开关</text>
+  </view>
+  <form bindsubmit="formSubmit">
+    <view class='section'>
+      <text>账号：</text>
+      <input type='number' placeholder='请输入账号' name="email" value=''/>
+    </view>
+    <view class='section'>
+      <text>密码:</text>
+      <input password='true' placeholder='请输入密码' name="pw" value=''/>
+    </view>
+    <view class='button'>
+      <button type='primary' form-type='submit'>登录</button>
+    </view>
+  </form>
+</view>
